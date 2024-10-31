@@ -1,9 +1,6 @@
 # Elaborar o código que quebra a cifra por deslocamento
 # 2. Por ataque de força bruta (brute force)
 
-from shift_cipher import shift_cipher
-
-
 def brute_force(cipher_text):
     for key in range(26):  
         decrypted_text = ''
@@ -17,10 +14,3 @@ def brute_force(cipher_text):
 
         if key == 3:
             return decrypted_text
-
-
-text = "Ola, Mundo!"
-encrypted_text = shift_cipher(text, 3)
-print("Texto original: " + text)
-print("Texto cifrado: " + encrypted_text)
-print("Texto decifrado:", brute_force(encrypted_text))
