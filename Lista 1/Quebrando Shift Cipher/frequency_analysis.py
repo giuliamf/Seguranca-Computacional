@@ -13,8 +13,8 @@ def calculate_frequency(text):
     count = Counter(letters)
     total = sum(count.values())
 
-    for letter, c in count.items():
-        frequency[letter] = (c / total) * 100
+    for letter in frequency_portuguese.keys():  # Garante todas as letras
+        frequency[letter] = (count.get(letter, 0) / total) * 100 if total > 0 else 0
 
     return frequency
 
@@ -29,7 +29,6 @@ def frequency_distance(fr1, fr2):
 
 
 def break_cipher_frequency(cipher_text):
-    frequency_cipher = calculate_frequency(cipher_text)
     distance = float('inf')
     best_key = 0
 
@@ -45,9 +44,3 @@ def break_cipher_frequency(cipher_text):
     final_text = cipher_decrypt(cipher_text, best_key)
     return final_text, best_key
 
-
-text = "Ola, Mundo!"
-encrypted_text = shift_cipher(text, 3)
-print("Texto original: " + text)
-print("Texto cifrado: " + encrypted_text)
-print("Texto decifrado: " + break_cipher_frequency(encrypted_text)[0])
