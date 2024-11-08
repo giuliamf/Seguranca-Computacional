@@ -1,6 +1,6 @@
-import string
 # Elaborar o código que quebra a cifra por deslocamento
 # 1. Distribuição de frequência de letras (frequency analysis)
+import string
 
 from collections import Counter
 from frequency_pt import frequency_portuguese
