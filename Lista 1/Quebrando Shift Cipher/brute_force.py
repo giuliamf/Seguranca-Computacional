@@ -1,5 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
 import string
 
 
