@@ -1,9 +1,6 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
+# Elaborar o código para realizar a cifra por deslocamento onde k = 3
 import string
 
-
-# Elaborar o código para realizar a cifra por deslocamento onde k = 3
 
 def shift_cipher(text, k):
     encrypted_text = ''
