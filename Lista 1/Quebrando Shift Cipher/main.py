@@ -1,6 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
-
 from frequency_analysis import frequency_analysis
 from brute_force import brute_force
 from shift_cipher import shift_cipher
