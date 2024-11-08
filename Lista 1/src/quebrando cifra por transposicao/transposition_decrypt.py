@@ -1,6 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
-
 # Elaborar o código que quebra a cifra por transposição, descodificando por análises ao texto cifrado (CipherText-only)
 
 from itertools import permutations
