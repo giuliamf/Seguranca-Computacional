@@ -1,8 +1,6 @@
-import string
-
-
 # Elaborar o código que quebra a cifra por deslocamento
 # 2. Por ataque de força bruta (brute force)
+import string
 
 
 def brute_force(cipher_text):
