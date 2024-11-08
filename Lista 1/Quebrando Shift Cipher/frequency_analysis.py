@@ -1,5 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
 import string
 # Elaborar o código que quebra a cifra por deslocamento
 # 1. Distribuição de frequência de letras (frequency analysis)
