@@ -1,6 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
-
 # Elaborar o código para realizar a cifra por transposição (dica: pode escolher o metodo de permutação)
 
 def transposition_encrypt(plaintext, key):
