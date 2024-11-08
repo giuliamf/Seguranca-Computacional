@@ -1,6 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
-
 from transposition_encrypt import transposition_encrypt
 from transposition_decrypt import break_transposition
 
