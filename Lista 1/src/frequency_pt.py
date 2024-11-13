@@ -1,6 +1,3 @@
-# https://github.com/giuliamf
-# Author: Giulia Moura, 200018795
-
 # https://www.dcc.fc.up.pt/~rvr/naulas/tabelasPT/
 
 frequency_portuguese = {
