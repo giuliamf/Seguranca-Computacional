@@ -40,7 +40,7 @@ Arquivos de Código:
 ```
 Texto Original: [1, 1, 0, 1, 0, 1, 1, 1]
 
-Texto Cifrado: [1, 0, 0, 1, 1, 0, 1, 0]
+Texto Cifrado: [1, 0, 1, 0, 1, 0, 0, 0]
 
 Texto Decriptado: [1, 1, 0, 1, 0, 1, 1, 1]
 ```
