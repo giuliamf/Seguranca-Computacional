@@ -53,4 +53,4 @@ Texto Decriptado: [1, 1, 0, 1, 0, 1, 1, 1]
 
 - William Stallings - "Cryptography and Network Security"
 
-- Documentação oficial do S-DES
+- Documentações online sobre S-DES
