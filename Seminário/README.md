@@ -38,7 +38,7 @@ Este projeto implementa um **Gerador e Verificador de Assinaturas Digitais** uti
 ### 1️⃣ Rodando com Python
 1. Clonar o Repositório
 ```bash 
-git clone https://github.com/GioLeiren/Gerador-Verificador-de-Assinaturas.git
+git clone https://github.com/giuliamf/Seguranca-Computacional/tree/main/Seminário
 cd Seminário/src
 ```
 2. Executar o Script Principal
