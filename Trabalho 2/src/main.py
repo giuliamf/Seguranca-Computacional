@@ -1,23 +1,18 @@
+import webbrowser
+import sys
 import os
 import subprocess
-import webbrowser
-import time
 
 # Armazena o processo do servidor
 server_process = None
 
 
-def gerar_certificado():
-    os.system("python gerar_certificado.py")
-
-
 def iniciar_servidor():
+    script_path = os.path.join(os.path.dirname(sys.executable), "server.py")
     global server_process
     if server_process is None:
-        # Inicia o servidor em um processo separado
-        server_process = subprocess.Popen(["python", "server.py"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        server_process = subprocess.Popen([sys.executable, script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         print("Servidor iniciado em segundo plano!")
-        time.sleep(2)  # Espera alguns segundos para garantir que o servidor esteja rodando
 
 
 def iniciar_cliente():
@@ -55,7 +50,6 @@ def main():
 
 
 if __name__ == "__main__":
-    gerar_certificado()
     main()
 
 
